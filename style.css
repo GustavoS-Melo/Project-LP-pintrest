@@ -50,7 +50,7 @@ body {
         .container p {
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
-    .firstSec h1 {
+    #products h1 {
         font-size: 40px;
         font-weight: 800;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -62,12 +62,12 @@ body {
    .container .information {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    }
-   .secondSec h1 {
+   #sustainability h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 45px;
     font-weight: 400;
    }
-   .secondSec button {
+   #sustainability button {
     margin-left: 25px;
     text-align: center;
     width: 100%;
@@ -76,38 +76,45 @@ body {
     border-color: rgb(95, 139, 29) ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    }
-   .secondSec .container p {
+   #sustainability .container p {
     margin-left: 200px;
    }
-   .thirdSec h1 {
+
+   #learn-more{
+    margin-top: 100px;
+    margin-bottom: 100px;
+   }
+
+
+   #about h1 {
     font-size: 50px;
     font-weight: 200;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    }
-   .thirdSec .container h2 {
+   #about .container h2 {
     font-size: 28px;
     font-weight: 200;
     border-top: 1px solid rgb(95, 139, 29) ;
     padding-top: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    }
-   .thirdSec .container p {
+   #about .container p {
     
     font-weight: 200;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    }
-   .forthSec .container .text {
+   #stories .container .text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
    }
-   .forthSec .container .text h1 {
+   #stories .container .text h1 {
     font-size: 50px;
     font-weight: 200;
    }
-   .forthSec .container .text h2{
+   #stories .container .text h2{
     font-size: 30px;
     font-weight: 200;
    }
-   .forthSec .container .text h3{
+   #stories .container .text h3{
     color:rgb(95, 139, 29) ;
     
     font-weight: 200;
@@ -130,4 +137,4 @@ body {
     width: 200px;
     margin-top: 20px;
     margin-bottom: 25px;
-   }
+}
